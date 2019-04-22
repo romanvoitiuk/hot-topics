@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Rokkitt');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0;
+    font-size: 0.75rem;
+    box-sizing: border-box;
+    line-height: 1.4rem;
+    font-size: 0.75rem;
+
+}
+
+header {
+
+    background-color: white;
+}
+
+.masthead {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/header.png);
+    background-size: cover;
+    padding: 8rem;
+
+}
+
+.masthead1 {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/header.png);
+    background-size: cover;
+    padding: 8rem;
+    
+}
+
+
+.logo {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #000000;
+}
+
+li {
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav {
+    margin-top: 100px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 100px;
+}
+
+nav li {
+    font-family: 'Francois One', sans-serif;;
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: none;
+}
+
+footer a {
+    color: red;
+}
+
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+article {
+    font-family: 'Rokkitt', serif;
+    line-height: 1.5;
+}
+
+article h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.5rem;
+}
+
+img.cover {
+    width: 50%;
+    height: auto;
+}
+
+/*home Page*/
+
+.main {
+
+    max-width: 60rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+
+}
+
+.img-responsive {
+    width: 300px;
+    height: 300px;
+}
+
+
+figcaption {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.top {
+    margin: 80px;
+    margin-bottom: 200px;    
+}
+
+.top img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.top figure {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;;
+}
+
+.info {
+    margin-bottom: 4rem;
+}
+
+
+
+/*portfolio*/
+
+.col {
+    margin-bottom: 2rem;
+}
+
+figure {
+    text-align: center;
+}
+
+
+.portfolio img-box {
+    width: 300px;
+    height: 300px;
+}
+
+.portfolio {
+    margin-top: 80px;
+    margin-bottom: 80px;    
+}
+
+  .smicons {
+  font-size: 3rem;
+  padding: 5px;
+
+}
+
+
+.fab, .fa-facebook-square {
+  padding: 10px;
+  color: black;
+}
+
+.fab, .fa-instagram {
+  padding: 10px;
+}
+
+.footer-wh, followme {
+    font-family: 'Francois One', sans-serif;
+}
+
+
+@media only screen and (min-width: 35rem) {
+    .logo {
+        width: 35%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        font-size: 1rem;
+    }
+
+
+    figcaption {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+
+    .top img {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .top figure {
+        float: left;
+        margin: 0.5rem 3rem 0 0;
+        width: 300px;
+    }
+
+    .info {
+        margin-bottom: 4rem;
+    }
+
+
+    
+    @media only screen and (min-width: 80rem) {
+        
+        .logo {
+            width: 35%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            font-size: 1.25rem;
+
+        }
+
+        article {
+            margin: 4rem;
+        }
+
+
+        .main {
+
+            max-width: 80rem;
+            margin: 0 auto;
+
+        }
+
+
+        figcaption {
+            margin-top: 1rem;
+        }
+
+
+        .top img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .top figure {
+            float: left;
+            display: inline-block;
+            margin-right: 3rem;
+        }
+
+        .info {
+            overflow: auto;
+            margin-bottom: 4rem;
+        }
+
+        
+
+
+    }
